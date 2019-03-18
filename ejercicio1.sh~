@@ -1,0 +1,5 @@
+for x in $(cat nombres.txt); do
+    mkdir /home/gloria/ejercicio1/$x
+
+    for z in `seq 1 $1`;do
+	
